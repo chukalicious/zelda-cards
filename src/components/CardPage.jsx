@@ -22,7 +22,7 @@ const CardPage = () => {
             .catch((err) => console.log(err));
     }, [id]);
     return (
-        <div className='card'>
+        <div className='card px-1'>
             <div className='hero min-h-screen bg-base-200'>
                 <div className='hero-content flex-col lg:flex-row'>
                     <img
