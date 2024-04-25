@@ -12,7 +12,7 @@ const Card = ({ card }) => {
                 <h2 className="card-title capitalize">{card.name}</h2>
                 <p className='text-left'>{card.description}</p>
                 <div className="card-actions">
-                    <Link to={`${card.id}`}>
+                    <Link to={`/item/${card.id}`}>
                         <button className="btn btn-primary">See Details</button></Link>
                 </div>
             </div>

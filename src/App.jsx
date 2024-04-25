@@ -2,6 +2,7 @@ import React from "react";
 import MainLayout from "./layouts/MainLayout";
 import CardsWrapper from "./components/CardsWrapper";
 import CardPage from "./components/CardPage";
+import Error from "./pages/Error";
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom"
 
 const App = () => {
@@ -10,10 +11,10 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route path="/" element={<CardsWrapper />} />
-        <Route path=":id" element={<CardPage />} />
+        <Route path="/item/:id" element={<CardPage />} />
 
 
-        <Route path="*" element={<h1>404</h1>} />
+        <Route path="/*" element={<Error />} />
       </Route>)
   );
   return (
