@@ -4,7 +4,6 @@ import axios from 'axios';
 
 const CardPage = () => {
     const [card, setCard] = useState({});
-    console.log(typeof card);
     const { id } = useParams();
 
     const navigate = useNavigate();
@@ -42,7 +41,7 @@ const CardPage = () => {
                             <div>
                                 {card.common_locations.map((location) => {
                                     return (
-                                        <div className='badge badge-primary badge-outline m-2'>
+                                        <div key={location} className='badge badge-primary badge-outline m-2'>
                                             {location}
                                         </div>
                                     );
@@ -59,7 +58,7 @@ const CardPage = () => {
                             <div>
                                 {card.drops.map((dropped) => {
                                     return (
-                                        <div className='badge badge-warning m-2'>{dropped}</div>
+                                        <div key={dropped} className='badge badge-warning m-2'>{dropped}</div>
                                     );
                                 })}
                             </div>
