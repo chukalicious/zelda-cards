@@ -1,22 +1,18 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100">
-            <div className="flex-1">
-                <Link to="/" className="btn btn-ghost text-xl">Vite + TailwindCSS + DaisyUI Template</Link>
-            </div>
-            <div className="flex-none">
-
-                <Link to="/about">
-                    <button className="btn btn-square btn-ghost mr-2">
-                        About
-                    </button>
+        <div className='navbar bg-base-100'>
+            <div className='flex-1'>
+                <Link
+                    to='/'
+                    className='btn btn-ghost text-xl'
+                >
+                    Zelda Compendium
                 </Link>
             </div>
+            <div className='flex-none'></div>
         </div>
-
     );
 };
 
