@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className='navbar bg-base-100 sm:w-max'>
+        <div className='navbar w-full bg-primary text-primary-content mb-10'>
             <div className='flex-1'>
                 <Link
                     to='/'
@@ -12,7 +12,6 @@ const Navbar = () => {
                     Zelda Compendium
                 </Link>
             </div>
-            <div className='flex-none'></div>
         </div>
     );
 };

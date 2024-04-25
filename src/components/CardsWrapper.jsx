@@ -18,7 +18,7 @@ const CardsWrapper = () => {
     }, []);
 
     return (
-        <div className='container'>
+        <div className='sm:w-max'>
             {loading ? (
                 <div className='sm:container sm:w-max md:container md:w-max'>
                     <InfinitySpin />
