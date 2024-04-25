@@ -1,13 +1,45 @@
-# vite-tailwind-daisyui-boilerplate
+# Vite Tailwind DaisyUI Boilerplate
 
-## Project Overview
+This project is a boilerplate for a React application using Vite, Tailwind CSS, and DaisyUI.
 
-This project, "vite-tailwind-daisyui-boilerplate", is a modern web application built with React. It uses Vite as a build tool, which provides a faster and leaner development experience. The application is styled with Tailwind CSS, a utility-first CSS framework for rapidly building custom user interfaces, and DaisyUI, a plugin for Tailwind CSS that provides a set of UI components.
+## Features
 
-The project uses ESLint for static code analysis to quickly find and fix problems in your JavaScript code. It has additional ESLint plugins configured for enforcing best practices in React and React Hooks. It also uses the eslint-plugin-react-refresh for enforcing best practices for React Refresh, which is a feature that allows you to get near-instant feedback for changes in your React components.
+- **Vite**: For a faster and leaner development experience.
+- **Tailwind CSS**: For utility-first CSS.
+- **DaisyUI**: For beautiful UI components, built on top of Tailwind CSS.
+- **React Router**: For declarative, accessible navigation around your application.
+- **Axios**: For promise-based HTTP requests.
+- **JSON Server**: For a full fake REST API.
 
-The project uses PostCSS, a tool for transforming CSS with JavaScript, and Autoprefixer, a PostCSS plugin that adds vendor prefixes to your CSS.
+## Scripts
 
-The TypeScript definitions for React and ReactDOM are included as development dependencies, which suggests that this project may be using TypeScript.
+- `dev`: Start the dev server.
+- `build`: Build your application for production.
+- `lint`: Lint your code.
+- `preview`: Preview the built application.
+- `server`: Start the JSON server.
 
-The scripts defined in the package.json allow you to start a development server (dev), build the project for production (build), lint the project files (lint), and preview the production build locally (preview).
+## Installation
+
+1. Clone this repository.
+2. Install the dependencies with `npm install`.
+3. Start the development server with `npm run dev`.
+
+## Usage
+
+This boilerplate includes several example components to get you started:
+
+- `App`: The main component that includes routing.
+- `CardsWrapper`: A component that fetches data from an API and displays a list of cards.
+- `Card`: A component that displays a single card.
+- `CardPage`: A component that fetches data for a single card and displays it.
+
+You can replace these with your own components as needed.
+
+## Contributing
+
+Contributions are welcome. Please open an issue or submit a pull request.
+
+## License
+
+This project is private and the version is 0.0.0.
