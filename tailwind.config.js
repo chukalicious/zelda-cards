@@ -5,8 +5,8 @@ export default {
     extend: {},
     container: {center: true}, 
      screens: {
-      sm: '480px',
-      md: '650px',
+      sm: '200px',
+      md: '550px',
       lg: '976px',
       xl: '1440px',
     }
