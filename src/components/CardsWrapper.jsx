@@ -18,9 +18,9 @@ const CardsWrapper = () => {
     }, []);
 
     return (
-        <div className='sm:w-max'>
+        <div>
             {loading ? (
-                <div className='sm:container sm:w-max md:container md:w-max'>
+                <div className='w-full flex justify-center'>
                     <InfinitySpin />
                 </div>
             ) : (
